@@ -6132,12 +6132,8 @@ span.select2-container.select2-container--default.select2-container--open {
   margin-bottom: 25px;
 }
 @media (max-width: 575px) {
-  .page-header {
-    margin-bottom: 20px;
-    flex-direction: column;
-  }
   .page-header .page-title {
-    text-align: center;
+    text-align: left;
   }
   .page-header .page-btn {
     margin-top: 15px;

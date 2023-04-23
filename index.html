@@ -5,7 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <title>Myzuu Admin</title>
-
+ 
+    <style>
+        iframe {
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,17 +26,29 @@
             <div class="content">
                 <div class="page-header">
                     <div class="page-title">
-                        <h4>Product List</h4>
-                        <h6>Manage your products</h6>
+                        <h4>Domain andrep</h4>
+                        <h6>Webstie Portofolio andrep</h6>
                     </div>
                     <div class="page-btn">
-                        <a href="addproduct.html" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
-                                class="me-1">Add New Product</a>
+                        <a href="/domain/andrep/" class="btn btn-added">
+                            Open Domain
+                        </a>
                     </div>
                 </div>
                 <div class="row">
-                    <iframe src="data/myzuu/home/" class="col-12 d-flex" frameborder="0" allowfullscreen></iframe>
+                    <object type="text/html" data="data/andrep/home/" class="col-lg-3 col-sm-6 col-12 d-flex"></object>
                 </div>
+
+                <div class="page-header">
+                    <div class="page-title">
+                        <h4>Aplikasi Myzuu</h4>
+                        <h6>Top Up Game, Pulsa, Token, DLL</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <object type="text/html" data="data/myzuu/home/" class="col-lg-3 col-sm-6 col-12 d-flex"></object>
+                </div>
+
 
                 <!-- Row --
                 <div class="row">
@@ -79,6 +96,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/assets/plugins/data/myzuu.js"></script>
+
 
 </body>
 

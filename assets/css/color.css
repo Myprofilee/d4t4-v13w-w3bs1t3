@@ -1,10 +1,15 @@
+object {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
 .dash-count {
     background: #9442fe;
     color: #fff;
     min-height: 98px;
     width: 100%;
     border-radius: 6px;
-    margin: 0 0 25px;
+    margin: 0 0 10px;
     padding: 20px;
 }
 

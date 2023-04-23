@@ -18,18 +18,3 @@ import('/assets/plugins/firebase/profile/firebase.min.js');
 import('/data/andrep/home/index.js');
 // Mengambil Data View myzuu
 import('/data/myzuu/home/index.js');
-
-
-
-(() => {
-    const includes = document.getElementsByTagName('include');
-    [].forEach.call(includes, i => {
-        let filePath = i.getAttribute('src');
-        fetch(filePath).then(file => {
-            file.text().then(content => {
-                i.insertAdjacentHTML('afterend', content);
-                i.remove();
-            });
-        });
-    });
-})();

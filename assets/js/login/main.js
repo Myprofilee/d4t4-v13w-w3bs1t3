@@ -22,11 +22,11 @@ var sign_out = document.querySelector("#signOut");
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
         if (window.location.pathname != '/') {
-            window.location = window.history.go(-1);
+            window.location = "/";
         }
     } else {
         if (window.location.pathname === '/') {
-            window.location = window.history.go(-1);
+            window.location = "/";
         }
     }
 });
@@ -40,7 +40,7 @@ if (form) {
 
         firebase.auth().signInWithEmailAndPassword(email, password)
             .then((userCredential) => {
-                window.location = window.history.go(-1);
+                window.location = "/";
             })
             .catch((error) => {
                 message.style.display = 'block';
@@ -101,7 +101,7 @@ var login = document.querySelector('.login');
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
         // console.log(user);
-        window.location = window.history.go(-1);
+        window.location = "/";
     }
 });
 

@@ -1,0 +1,22 @@
+{
+    "name":"andrep data13",
+    "short_name":"andrep",
+    "start_url":"https://data13app-andrep.vercel.app/",
+    "display":"standalone",
+    "background_color":"#010f20",
+    "theme_color":"black",
+    "scope": ".",
+    "description":"Portofolio andrep.",
+    "icons":[
+    {
+    "src":"/assets/img/logo/andrep.png",                     
+    "sizes":"192x192",
+    "type":"image/png"
+    },
+    {
+    "src":"/assets/img/logo/andrep.png",
+    "sizes":"512x512",
+    "type":"image/png"
+    }
+  ]
+}
